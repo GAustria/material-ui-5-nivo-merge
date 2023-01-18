@@ -193,9 +193,16 @@ module.exports = {
           'src/components/Toolbar/Toolbar.js',
         ],
       },
+      {
+        name: 'Data Visualization',
+        include: [
+          'src/components/Bar/Bar.js',
+          'src/components/Treemap/Treemap.js',
+        ],
+      },
     ],
     wrapper: 'src/components/UXPinWrapper/UXPinWrapper.js',
     webpackConfig: 'uxpin.webpack.config.js',
   },
-  name: 'MUI 5 with UXPin Merge'
+  name: 'MUI 5 and Nivo with UXPin Merge'
 };
